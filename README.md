@@ -4,11 +4,11 @@
 ## Week 1
 
 ### **What is Machine Learning?**
-1.
-> Machine Learning is the field of study that gives the computers the ability to learn without being explicitly programmed for it. (Sir Arthur Samuel)
+1. Definition by Sir Arthur Samuel -
+> Machine Learning is the field of study that gives the computers the ability to learn without being explicitly programmed for it.
 
-2.
-> A computer program is said to learn from *experience E* with some class of *tasks T* and *performance measure P*, if its performance at tasks **T**, as measured by **P**, improves with experience **E**. (Sir Tom Mitchel)
+2. Definition by Sir Tom Mitchel -
+> A computer program is said to learn from *experience E* with some class of *tasks T* and *performance measure P*, if its performance at tasks **T**, as measured by **P**, improves with experience **E**.
 
 Example of Playing Checkers:
 **E =** the experience of playing many games of checkers
