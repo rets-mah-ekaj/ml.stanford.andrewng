@@ -5,10 +5,10 @@
 
 ### **What is Machine Learning?**
 1. Definition by Sir Arthur Samuel -
-> Machine Learning is the field of study that gives the computers the ability to learn without being explicitly programmed for it.
+Machine Learning is the field of study that gives the computers the ability to learn without being explicitly programmed for it.
 
 2. Definition by Sir Tom Mitchel -
-> A computer program is said to learn from *experience E* with some class of *tasks T* and *performance measure P*, if its performance at tasks **T**, as measured by **P**, improves with experience **E**.
+A computer program is said to learn from *experience E* with some class of *tasks T* and *performance measure P*, if its performance at tasks **T**, as measured by **P**, improves with experience **E**.
 
 Example of Playing Checkers:
 - **E =** the experience of playing many games of checkers
@@ -25,9 +25,11 @@ In supervised learning, we have both input and correct output corresponding to t
 2. *Regression*
 
 **Classification:** In such problems, we try to predict results in discrete values. We try to map input variables to discrete categories.
-> Predicting whether the patient's tumor is malignant or benign giving his/her tumor information as input
+> Predicting whether the patient's tumor is malignant or benign giving his/her tumor information as input.
+> Predicting whether the house will be sold for more or less than the asking price given the data of real estate market and information about the house.
 
 **Regression:** In such problems, we try to predict results in continuous values. We try to map input variables to continuous functions.
-> Predicting age of the person by giving his/her picture as input
+> Predicting age of the person by giving his/her picture as input.
+> Predicting price of a house given the size of house in real estate market as input.
 
 ---
