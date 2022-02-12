@@ -1,1 +1,1 @@
-# ml.stanford.andrewng
+# Machine Learning by Stanford University - Coursera
