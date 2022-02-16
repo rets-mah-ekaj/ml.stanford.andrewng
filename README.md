@@ -53,10 +53,10 @@ In Unsupervised learning, it allows us to approach problems with little or no kn
 - x^(i)^ will denote input variables (also called *input features*).
 - y^(i)^ will denote output variables (also called *target variables*) that we are trying to predict.
 
-**Training Data:**
+- **Training Data**
 : A pair of (x^(i)^, y^(i)^) is called a training example or training data.
 
-**Training Set:**
+- **Training Set**
 : A set of **m** training examples is called a training set.
 
 **Formal Description for supervised learning:**
