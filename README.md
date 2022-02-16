@@ -48,3 +48,16 @@ In Unsupervised learning, it allows us to approach problems with little or no kn
 - In a party, we need to identify individual voices and music from a mesh of sounds in the party.
 
 ---
+
+### **Model Representation**
+- x^(i)^ will denote input variables (also called *input features*).
+- y^(i)^ will denote output variables (also called *target variables*) that we are trying to predict.
+- **Training Data:** A pair of (x^(i)^, y^(i)^) is called a training example or training data.
+- **Training Set:** A set of **m** training examples is called a training set.
+
+**Formal Description for supervised learning:**
+Given a training set, we need to find a function **h: X --> Y** such that **h(X)** is a good predictor for the corresponding value of Y. This function h is called *"HYPOTHESIS"*.
+
+![Pictorial Representation of Hypothesis Generation](SS_1.png)
+
+**NOTE:** When the target variable y (which we are trying to predict) gives continuous values, we call it *regression problem*. On the other hand, when it gives discrete values, we call it *classification problem*.
