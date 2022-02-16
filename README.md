@@ -24,11 +24,15 @@ In supervised learning, we have both input and correct output corresponding to t
 1. *Classification*
 2. *Regression*
 
-**Classification:** In such problems, we try to predict results in discrete values. We try to map input variables to discrete categories. Example:
+**Classification:**
+> In such problems, we try to predict results in discrete values. We try to map input variables to discrete categories. Example:
+
 - Predicting whether the patient's tumor is malignant or benign giving his/her tumor information as input.
 - Predicting whether the house will be sold for more or less than the asking price given the data of real estate market and information about the house.
 
-**Regression:** In such problems, we try to predict results in continuous values. We try to map input variables to continuous functions. Example:
+**Regression:**
+> In such problems, we try to predict results in continuous values. We try to map input variables to continuous functions. Example:
+
 - Predicting age of the person by giving his/her picture as input.
 - Predicting price of a house given the size of house in real estate market as input.
 
@@ -41,10 +45,14 @@ In Unsupervised learning, it allows us to approach problems with little or no kn
 1. *Clustering*
 2. *Non-Clustering*
 
-**Clustering:** It is the process of grouping together similar entities that are related to each other in similar way.
+**Clustering:**
+> It is the process of grouping together similar entities that are related to each other in similar way.
+
 - In a collection of a million genes, we find a way to automatically group together those genes which are related to each other in terms of either life span, location, roles, etc.
 
-**Non-Clustering:** It is the process, unlike clustering, rather than grouping together related entities, we transform the data/input to get results.
+**Non-Clustering:**
+> It is the process, unlike clustering, rather than grouping together related entities, we transform the data/input to get results.
+
 - In a party, we need to identify individual voices and music from a mesh of sounds in the party.
 
 ---
@@ -69,4 +77,4 @@ Given a training set, we need to find a function **h: X --> Y** such that **h(X)
 ### **Cost Function:**
 > It is used for measuring the accuracy of the Hypothesis. Here, we take average difference of all the results of hypothesis from input X to output Y.
 
-J(Θ<sub>0</sub>, Θ<sub>1</sub>) = 
+J(Θ<sub>0</sub>, Θ<sub>1</sub>) =
