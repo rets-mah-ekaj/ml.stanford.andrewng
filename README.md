@@ -77,4 +77,14 @@ Given a training set, we need to find a function **h: X --> Y** such that **h(X)
 ### **Cost Function:**
 > It is used for measuring the accuracy of the Hypothesis. Here, we take average difference of all the results of hypothesis from input X to output Y.
 
-J(Θ<sub>0</sub>, Θ<sub>1</sub>) =
+> The main idea behind is to chose such a hypothesis that predicted value is as close to the actual value as it can be.
+
+![Cost Function Formula](SS_2.png)
+where
+- **J(Θ<sub>0</sub>, Θ<sub>1</sub>)** is Cost Function.
+- **m** is total number of training examples or size of training set.
+- **i** is index of training example.
+- **h<sub>Θ</sub>(x<sub>i</sub>)** is the predicted value by our hypothesis *h* on input *x<sub>i</sub>*.
+- **y<sub>i</sub>** is the actual output that should have been received.
+
+> This function is also called 'SQUARED ERROR FUNCTION' or 'MEAN SQUARED FUNCTION' because the mean is halved for the convenience of computing the gradient descent. This half (1/2) value will be cancelled out by the derivative term of square function.
