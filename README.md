@@ -68,4 +68,4 @@ Given a training set, we need to find a function **h: X --> Y** such that **h(X)
 
 ### **Cost Function:**
 - It is used for measuring the accuracy of the Hypothesis. Here, we take average difference of all the results of hypothesis from input X to output Y.
-J(\theta~0~, \theta~1~) = 
+J(Θ~0~, Θ~1~) = 
