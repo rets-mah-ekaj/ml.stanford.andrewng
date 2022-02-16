@@ -65,3 +65,7 @@ Given a training set, we need to find a function **h: X --> Y** such that **h(X)
 ![Pictorial Representation of Hypothesis Generation](SS_1.png)
 
 **NOTE:** When the target variable y (which we are trying to predict) gives continuous values, we call it *regression problem*. On the other hand, when it gives discrete values, we call it *classification problem*.
+
+### **Cost Function:**
+- It is used for measuring the accuracy of the Hypothesis. Here, we take average difference of all the results of hypothesis from input X to output Y.
+J(\theta~0~, \theta~1~) = 
