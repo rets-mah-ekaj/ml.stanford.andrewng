@@ -90,6 +90,6 @@ where
 > This function is also called 'SQUARED ERROR FUNCTION' or 'MEAN SQUARED FUNCTION' because the mean is halved for the convenience of computing the gradient descent. This half (1/2) value will be cancelled out by the derivative term of square function.
 
 **Cost Function Intuition:**
-Assume the training data set on a X-Y plane. We try to make a straight line that will pass through all the scattered data points (h<sub>0</sub>(x)). We will get the *best possible line* when the average squared vertical distances of the scattered points from the line will be *LEAST*.
+Assume the training data set on a X-Y plane. We try to make a straight line that will pass through all the scattered data points (h<sub>Θ</sub>(x)). We will get the *best possible line* when the average squared vertical distances of the scattered points from the line will be *LEAST*.
 
-> Ideally the straight line should pass through all the scattered data points (J(0<sub>0</sub>, 0<sub>1</sub>) = 0).
+> Ideally the straight line should pass through all the scattered data points (J(Θ<sub>0</sub>, Θ<sub>1</sub>) = 0).
