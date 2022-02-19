@@ -58,11 +58,11 @@ In Unsupervised learning, it allows us to approach problems with little or no kn
 ---
 
 ### **Model Representation**
-- x^(i)^ will denote input variables (also called *input features*).
-- y^(i)^ will denote output variables (also called *target variables*) that we are trying to predict.
+- x<sup>(i)</sup> will denote input variables (also called *input features*).
+- y<sup>(i)</sup> will denote output variables (also called *target variables*) that we are trying to predict.
 
 - **Training Data**
-: A pair of (x^(i)^, y^(i)^) is called a training example or training data.
+: A pair of (x<sup>(i)</sup>, y<sup>(i)</sup>) is called a training example or training data.
 
 - **Training Set**
 : A set of **m** training examples is called a training set.
@@ -84,12 +84,12 @@ where
 - **J(Θ<sub>0</sub>, Θ<sub>1</sub>)** is Cost Function.
 - **m** is total number of training examples or size of training set.
 - **i** is index of training example.
-- **h<sub>Θ</sub>(x<sup>i</sup>)** is the predicted value by our hypothesis *h* on input *x<sub>i</sub>*.
+- **h<sub>Θ</sub>(x<sup>(i)</sup>)** is the predicted value by our hypothesis *h* on input *x<sup>(i)</sup>*.
 - **y<sub>i</sub>** is the actual output that should have been received.
 
 > This function is also called 'SQUARED ERROR FUNCTION' or 'MEAN SQUARED FUNCTION' because the mean is halved for the convenience of computing the gradient descent. This half (1/2) value will be cancelled out by the derivative term of square function.
 
 **Cost Function Intuition:**
-Assume the training data set on a X-Y plane. We try to make a straight line that will pass through all the scattered data points (). We will get the *best possible line* when the average squared vertical distances of the scattered points from the line will be *LEAST*.
+Assume the training data set on a X-Y plane. We try to make a straight line that will pass through all the scattered data points (h<sub>0</sub>(x)). We will get the *best possible line* when the average squared vertical distances of the scattered points from the line will be *LEAST*.
 
-> Ideally the straight line should pass through all the scattered data points.
+> Ideally the straight line should pass through all the scattered data points (J(0<sub>0</sub>, 0<sub>1</sub>) = 0).
