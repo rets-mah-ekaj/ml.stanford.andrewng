@@ -93,3 +93,18 @@ where
 Assume the training data set on a X-Y plane. We try to make a straight line that will pass through all the scattered data points (h<sub>Θ</sub>(x)). We will get the *best possible line* when the average squared vertical distances of the scattered points from the line will be *LEAST*.
 
 > Ideally the straight line should pass through all the scattered data points (J(Θ<sub>0</sub>, Θ<sub>1</sub>) = 0).
+
+![Cost Function Intuition - Plot 1 - Ideal Situation](SS_3.png)
+
+When we set **Θ<sub>1</sub> = 1**, we get a slope of 1 which passes though each and every data point in our model.
+When we set **Θ<sub>1</sub> = 0.5**, we get to see that the vertical distance of the data points from the line increases.
+
+![Cost Function Intuition - Plot 2](SS_4.png)
+
+This increases our cost function to **0.58**. If we plot several other graphs we get the following graph:
+
+![Cost Function Intuition - Plot 3 - All data points graphed](SS_5.png)
+
+Since our goal was to **minimize the cost function**, Θ<sub>1</sub> = 1 becomes our *global minimum*.
+
+---
