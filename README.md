@@ -1,5 +1,5 @@
 # Machine Learning by Stanford University - Coursera
-![Course Image Snapshot](course_img.png)
+![Course Image Snapshot](./images/course_img.png)
 
 ## Week 1
 
@@ -70,7 +70,7 @@ In Unsupervised learning, it allows us to approach problems with little or no kn
 **Formal Description for supervised learning:**
 Given a training set, we need to find a function **h: X --> Y** such that **h(X)** is a good predictor for the corresponding value of Y. This function h is called *"HYPOTHESIS"*.
 
-![Pictorial Representation of Hypothesis Generation](SS_1.png)
+![Pictorial Representation of Hypothesis Generation](./images/SS_1.png)
 
 **NOTE:** When the target variable y (which we are trying to predict) gives continuous values, we call it *regression problem*. On the other hand, when it gives discrete values, we call it *classification problem*.
 
@@ -79,7 +79,7 @@ Given a training set, we need to find a function **h: X --> Y** such that **h(X)
 
 > The main idea behind is to chose such a hypothesis that predicted value is as close to the actual value as it can be.
 
-![Cost Function Formula](SS_2.png)
+![Cost Function Formula](./images/SS_2.png)
 where
 - **J(Θ<sub>0</sub>, Θ<sub>1</sub>)** is Cost Function.
 - **m** is total number of training examples or size of training set.
@@ -94,16 +94,16 @@ Assume the training data set on a X-Y plane. We try to make a straight line that
 
 > Ideally the straight line should pass through all the scattered data points (J(Θ<sub>0</sub>, Θ<sub>1</sub>) = 0).
 
-![Cost Function Intuition - Plot 1 - Ideal Situation](SS_3.png)
+![Cost Function Intuition - Plot 1 - Ideal Situation](./images/SS_3.png)
 
 When we set **Θ<sub>1</sub> = 1**, we get a slope of 1 which passes though each and every data point in our model.
 When we set **Θ<sub>1</sub> = 0.5**, we get to see that the vertical distance of the data points from the line increases.
 
-![Cost Function Intuition - Plot 2](SS_4.png)
+![Cost Function Intuition - Plot 2](./images/SS_4.png)
 
 This increases our cost function to **0.58**. If we plot several other graphs we get the following graph:
 
-![Cost Function Intuition - Plot 3 - All data points graphed](SS_5.png)
+![Cost Function Intuition - Plot 3 - All data points graphed](./images/SS_5.png)
 
 Since our goal was to **minimize the cost function**, Θ<sub>1</sub> = 1 becomes our *global minimum*.
 
