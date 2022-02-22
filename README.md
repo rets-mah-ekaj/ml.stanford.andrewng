@@ -130,3 +130,12 @@ Picking any coloured line in the graph above, we can expect same values of the c
 - When we plot those values on the graph, the right ones seems to put the point in the center of the inner most *circle*.
 
 ---
+
+### **Gradient Descent:**
+After having a hypothesis function and a method of measuring how well the data fits into it, we need to find the parameters of the hypothesis function. Assume a graph with cost function as the parameter estimates and *x* and *y* themselves are not being graphed but instead the *parameter range* of the hypothesis function and *cost* resulting from selecting a particular set of parameters are graphed.
+
+![Gradient Descent Plot Example](./images/SS_9.png)
+
+We put **Θ<sub>0</sub>** on the X-axis, **Θ<sub>1</sub>** on the Y-axis and the **Cost Function** on the z-axis. In this graph, the points will be the result of the cost function using the hypothesis with those specific theta parameters.
+
+- The success is achieved when the cost function is at the very bottom of the pits of the graph, that is, when its value is minimum. In the graph above, the red arrows show the minimum point in graph.
