@@ -139,3 +139,19 @@ After having a hypothesis function and a method of measuring how well the data f
 We put **Θ<sub>0</sub>** on the X-axis, **Θ<sub>1</sub>** on the Y-axis and the **Cost Function** on the z-axis. In this graph, the points will be the result of the cost function using the hypothesis with those specific theta parameters.
 
 - The success is achieved when the cost function is at the very bottom of the pits of the graph, that is, when its value is minimum. In the graph above, the red arrows show the minimum point in graph.
+
+- The success can be achieved by getting the *derivative* of the cost function (tangential line to the function). The slope of the tangent is the derivative at that point and gives the direction to move to. This helps to step in downward direction with the steepest descent.
+
+- Size of each step is determined by parameter **α** which is called the **Learning Rate**.
+
+#### **GRADIENT DESCENT ALGORITHM:**
+
+> The below formula has to be repeated till convergence is achieved.
+
+![Gradient Descent Algorithm](./images/SS_10.png)
+
+where
+
+- **j = 0 or 1** represents the feature index number.
+
+- At each iteration **j**, the parameters Θ<sub>1</sub>, Θ<sub>2</sub> ..... Θ<sub>n</sub> should be updated simultaneously.
