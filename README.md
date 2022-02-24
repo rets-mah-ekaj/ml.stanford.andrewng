@@ -154,4 +154,9 @@ where
 
 - **j = 0 or 1** represents the feature index number.
 
-- At each iteration **j**, the parameters Θ<sub>1</sub>, Θ<sub>2</sub> ..... Θ<sub>n</sub> should be updated simultaneously.
+- At each iteration **j**, the parameters Θ<sub>1</sub>, Θ<sub>2</sub> ..... Θ<sub>n</sub> should be updated simultaneously because updating of just one specific parameter before calculation of another would yield wrong results.
+
+EXAMPLE:
+![Proof of above point that simultaneous updation is necessary](./images/SS_11.png)
+
+---
